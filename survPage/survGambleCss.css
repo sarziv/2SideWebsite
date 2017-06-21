@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+}
+.mainBackground {
+    position: fixed;
+    margin: 0 auto;
+}
+img {
+    border-radius: 50%;
+    position: absolute;
+   // background-color: #6d061c;
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+#button {
+    margin-left: 500px;
+    margin-top: 200px;
+}
+#button1 {
+    margin-left: 500px;
+    margin-top: 200px;
+}
+#perk1 {
+ position: absolute;
+    height: 120px;
+    width: 120px;
+}
+#perk2 {
+    position: absolute;
+    margin-left: 120px;
+    height: 120px;
+    width: 120px;
+}
+#perk3 {
+    position: absolute;
+    margin-left: 240px;
+    height: 120px;
+    width: 120px;
+}
+#perk4 {
+    position: absolute;
+    margin-left: 360px;
+    height: 120px;
+    width: 120px;
+}
+#perkBox {
+    position: fixed;
+    height: 120px;
+    width: 480px;
+}
