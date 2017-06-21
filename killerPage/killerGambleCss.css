@@ -1,4 +1,63 @@
 body {
-    position: fixed;
+
     margin: 0 auto;
+}
+
+img {
+
+    position: absolute;
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+#button {
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-left: 880px;
+    margin-top: 200px;
+}
+
+#perk1 {
+
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+#perk2 {
+    position: absolute;
+    margin-left: 120px;
+    height: 120px;
+    width: 120px;
+}
+#perk3 {
+    position: absolute;
+    margin-left: 240px;
+    height: 120px;
+    width: 120px;
+}
+#perk4 {
+    position: absolute;
+    margin-left: 360px;
+    height: 120px;
+    width: 120px;
+}
+#perkBox {
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    margin-top: 50px;
+    margin-left: 700px;
+    position: fixed;
+    height: 120px;
+    width: 480px;
+}
+.topFont {
+    margin-left: 770px;
+    color: white;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 300%;
 }

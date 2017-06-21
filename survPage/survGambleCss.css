@@ -1,29 +1,30 @@
 body {
+
     margin: 0 auto;
 }
-.mainBackground {
-    position: fixed;
-    margin: 0 auto;
-}
+
 img {
-    border-radius: 50%;
+
     position: absolute;
-   // background-color: #6d061c;
     float: left;
     height: 120px;
     width: 120px;
 }
 
 #button {
-    margin-left: 500px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-left: 880px;
     margin-top: 200px;
 }
-#button1 {
-    margin-left: 500px;
-    margin-top: 200px;
-}
+
 #perk1 {
- position: absolute;
+
+    position: absolute;
     height: 120px;
     width: 120px;
 }
@@ -46,7 +47,17 @@ img {
     width: 120px;
 }
 #perkBox {
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    margin-top: 50px;
+    margin-left: 700px;
     position: fixed;
     height: 120px;
     width: 480px;
+}
+.topFont {
+    margin-left: 770px;
+    color: white;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 300%;
 }

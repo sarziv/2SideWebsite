@@ -1,9 +1,5 @@
 $(document).ready(function(){
-    $("button").click(function(){
-        $("#div1").fadeIn();
-        $("#div2").fadeIn("slow");
-        $("#div3").fadeIn(3000);
-    });
+
 var theImages = new Array();
 
 theImages[0] = "../PerksIcons/survivalPerks/120px-IconPerks_aceInTheHole.png";
@@ -80,10 +76,10 @@ for (i = 0; i < p; i++) {
 
         function showImage() {
 
-            $("#perk1").append("<img src='../Image/PerkBackgroundIcon.jpg'>");
-            $("#perk2").append("<img src='../Image/PerkBackgroundIcon.jpg'>");
-            $("#perk3").append("<img src='../Image/PerkBackgroundIcon.jpg'>");
-            $("#perk4").append("<img src='../Image/PerkBackgroundIcon.jpg'>");
+            $("#perk1").append("<img src='../Image/PerkBackgroundIcon.png'>");
+            $("#perk2").append("<img src='../Image/PerkBackgroundIcon.png'>");
+            $("#perk3").append("<img src='../Image/PerkBackgroundIcon.png'>");
+            $("#perk4").append("<img src='../Image/PerkBackgroundIcon.png'>");
 
             $("#perk1").append("<img src='"+theImages[whichImage1]+"'>").hide().fadeIn(2000);
             $("#perk2").append("<img src='"+theImages[whichImage2]+"'>").hide().fadeIn(3000);
