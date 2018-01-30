@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>DBD Gamble Machine</title>
+    <script src="JQuery/jquery-3.2.1.js"></script>
+    <script src="JQuery/jquery-ui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="JQuery/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="2SideCss.css">
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
+</head>
+
+<body class="colorBlack">
+
+<div class="halfPageLeft container">
+    <img src="Image/dwaight.png"  height="1000" width="800" class="image"/>
+    <a href="survPage/survGamble.html"
+    <div class="overlay">
+    <div class="text textFontMorga">
+
+        </a>
+    </div>
+
+</div>
+<div class="vsIcon">
+    <img src="Image/vsImage.png" height="277" width="324"/></div>
+
+<div class="halfPageRight container">
+    <img src="Image/trapper.png" height=" 1000" width="800" class="image">
+    <a href="killerPage/killerGamble.html"
+    <div class="overlayRight">
+        <div class="textTrapper textFontMorga">
+
+        </a>
+    </div>
+</div>
+
+<div class="dbdLogo">
+    <img src="Image/Daylight-PNG-HD-Logo.png" height="177" width="295"/>
+</div>
+<div class="textTop topFont">
+    Choose your side...!
+</div>
+
+</body>
+</html>
